@@ -11,18 +11,7 @@
 
 @implementation RPAppDelegate
 
-+ (void)initialize {
-    // Init iRate
-    [iRate sharedInstance].daysUntilPrompt = 5;
-    [iRate sharedInstance].usesUntilPrompt = 15;
-    [iRate sharedInstance].appStoreID = 663334697;
-    [iRate sharedInstance].appStoreGenreID = 0;
-    [iRate sharedInstance].promptForNewVersionIfUserRated = YES;
-    [iRate sharedInstance].onlyPromptIfMainWindowIsAvailable = NO;
-}
-
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification {
-    [iRate sharedInstance].delegate = self;
     [[NSUserDefaults standardUserDefaults] setObject:@YES forKey:@"NSQuitAlwaysKeepsWindows"];
     self.appIsQuitting = NO;
 }
