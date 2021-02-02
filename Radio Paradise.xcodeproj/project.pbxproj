@@ -232,7 +232,7 @@
 				ORGANIZATIONNAME = "Giacomo Tufano";
 				TargetAttributes = {
 					648EB8BE170DB873000185C6 = {
-						DevelopmentTeam = 6483W56522;
+						DevelopmentTeam = M9R2MTTYA6;
 						SystemCapabilities = {
 							com.apple.Sandbox = {
 								enabled = 1;
@@ -389,8 +389,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_ENTITLEMENTS = "Radio Paradise/Radio Paradise.entitlements";
-				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_IDENTITY = "-";
 				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = M9R2MTTYA6;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Radio Paradise/Radio Paradise-Prefix.pch";
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -411,8 +412,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_ENTITLEMENTS = "Radio Paradise/Radio Paradise.entitlements";
-				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_IDENTITY = "-";
 				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = M9R2MTTYA6;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Radio Paradise/Radio Paradise-Prefix.pch";
 				INFOPLIST_FILE = "Radio Paradise/Radio Paradise-Info.plist";
